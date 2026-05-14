@@ -1,6 +1,12 @@
 import discord
 from discord.ext import commands
 import random
+from dotenv import load_dotenv
+import os
+
+
+load_dotenv()
+TOKEN = os.getenv("TOKEN")
 
 TOKEN = "YOUR_TOKEN_HERE"
 
